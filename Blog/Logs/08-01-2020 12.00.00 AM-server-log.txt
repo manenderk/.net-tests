@@ -1,0 +1,6 @@
+2020-01-08 14:16:23.2169 Info category not found with id10  
+2020-01-08 14:16:23.2897 Info category not found with id10  The given key was not present in the dictionary.
+2020-01-08 14:16:25.8624 Info category not found with id10  
+2020-01-08 14:16:25.8624 Info category not found with id10  The given key was not present in the dictionary.
+2020-01-08 14:16:29.4178 Info category not found with id10  
+2020-01-08 14:16:29.4188 Info category not found with id10  The given key was not present in the dictionary.

@@ -4,3 +4,15 @@
 2020-01-08 14:16:25.8624 Info category not found with id10  The given key was not present in the dictionary.
 2020-01-08 14:16:29.4178 Info category not found with id10  
 2020-01-08 14:16:29.4188 Info category not found with id10  The given key was not present in the dictionary.
+2020-01-08 16:38:39.8589 Info category not found with id10  
+2020-01-08 16:38:39.8778 Info category not found with id10  The given key was not present in the dictionary.
+2020-01-08 16:43:30.4457 Info category not found with id10  
+2020-01-08 16:43:30.4636 Info category not found with id10  The given key was not present in the dictionary.
+2020-01-08 17:05:02.7666 Info category not found with id10  
+2020-01-08 17:05:02.7866 Info category not found with id10  The given key was not present in the dictionary.
+2020-01-08 17:05:13.3883 Info category not found with id10  
+2020-01-08 17:05:13.3883 Info category not found with id10  The given key was not present in the dictionary.
+2020-01-08 17:22:13.2818 Info category not found with id10  Object reference not set to an instance of an object.
+2020-01-08 17:25:32.7845 Info category not found with id10  Object reference not set to an instance of an object.
+2020-01-08 17:25:52.0561 Info category not found with id10  Object reference not set to an instance of an object.
+2020-01-08 17:26:30.1783 Info category not found with id10  Object reference not set to an instance of an object.

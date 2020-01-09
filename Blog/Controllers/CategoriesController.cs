@@ -16,8 +16,10 @@ namespace Blog.Controllers
 {
     public class CategoriesController : ApiController
     {
+
         private BlogEntities db = new BlogEntities();
         private LogUtil logUtil = new LogUtil();
+        private MessageUtil messageUtil = new MessageUtil();
         
         // GET: api/Categories
         public IQueryable<Category> GetCategories()
@@ -34,6 +36,7 @@ namespace Blog.Controllers
                 Category category = await db.Categories.FindAsync(id);
                 if (category == null)
                 {
+                    string message = messageUtil.getMessage("record-not-found");
                     logUtil.addLog("info", "category not found with id" + id);
                     logUtil.addLog("info", "category not found with id" + id, new KeyNotFoundException());
                     return NotFound();
@@ -43,7 +46,7 @@ namespace Blog.Controllers
             }
             catch(Exception e)
             {
-                logUtil.addLog("info", "category not found with id" + id, new KeyNotFoundException());
+                logUtil.addLog("info", "category not found with id" + id, e);
                 return NotFound();
             }
         }
